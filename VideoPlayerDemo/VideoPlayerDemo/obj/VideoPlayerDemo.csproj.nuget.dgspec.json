@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\16_Xamarin\\02-Git\\VideoPlayerDemo\\VideoPlayerDemo\\VideoPlayerDemo.csproj": {}
+  },
+  "projects": {
+    "E:\\16_Xamarin\\02-Git\\VideoPlayerDemo\\VideoPlayerDemo\\VideoPlayerDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\16_Xamarin\\02-Git\\VideoPlayerDemo\\VideoPlayerDemo\\VideoPlayerDemo.csproj",
+        "projectName": "VideoPlayerDemo",
+        "projectPath": "E:\\16_Xamarin\\02-Git\\VideoPlayerDemo\\VideoPlayerDemo\\VideoPlayerDemo.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\16_Xamarin\\02-Git\\VideoPlayerDemo\\VideoPlayerDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Ijkplayer.Droid": {
+              "target": "Package",
+              "version": "[0.8.8.5, )"
+            },
+            "Ijkplayer.Droid.UI": {
+              "target": "Package",
+              "version": "[0.8.8.2, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
